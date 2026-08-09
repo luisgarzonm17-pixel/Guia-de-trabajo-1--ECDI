@@ -84,6 +84,90 @@ El diagrama de Fase seria:
 
 <img width="547" height="338" alt="image" src="https://github.com/user-attachments/assets/7fcf7cc9-1445-4479-89d0-8c6b3b688f1f" />
 
+# Punto C 
+
+y´ = (y + 2)(10 + 3y - $$y^2$$
+
+Primero se factoriza: 
+10 + 3y - $$y^2$$
+= -($$y^2$$ - 3y - 10) 
+=(y - 5)(y + 2) 
+
+Entonces: 
+y´ = -$$(y + 2)^2$$(y - 5) 
+
+Los puntos criticos son: 
+(5 - y)$$(y + 2)^2$$ = 0
+
+Por tanto: 
+y = -2, y = 5 
+
+En el intervalo y < -2 el signo de y´ es positivo 
+En el intervalo -2 < y < 5 el signo de y´ es positivo 
+En el intervalo y >  5 el signo es negativo 
+
+
+El diagrama de fase seria: 
+
+<img width="530" height="339" alt="image" src="https://github.com/user-attachments/assets/7ce4bfd8-b472-49b0-bfee-686405acdc6b" />
+
+# Punto D 
+
+y´ = y5 - 4y3 - 5y2 
+Factorizamos: 
+
+y´ = y2(y3 - 4y - 5) 
+
+Los puntos criticos son: 
+
+Tenemos inmediatamente: 
+
+y = 0 
+
+El otro putno critico se obtiene en: 
+
+y3 - 4y - 5 = 0 
+
+En esta ecuacion se obtiene una unica raiz real de aproximadamente: 
+y = 2.456 
+
+Al analizar los signos 
+
+El termino $$y^2$$ siempre es positivo salvo en y = 0 
+
+El comportamiento nos queda como: 
+
+El intervalo en y < 0 el sigono de y´ es negativo 
+El intervalo 0 < y < 2.456 el sigomo de y´ es negativo 
+El intervalo de y > 2.456 el signo de y´ es positivo 
+
+
+El diagrama de fase seria: 
+
+<img width="529" height="342" alt="image" src="https://github.com/user-attachments/assets/181ea73d-bf3a-4210-a8e3-6c1a35c65969" />
+
+
+# Punto E 
+
+y´ = (1 - y)(y - 2)2 
+
+Los puntos criticos: 
+
+Igualamos a cero: 
+(1 - y)(y - 2)3 = 0 
+
+Entonces: 
+
+y = 1, y = 2 
+
+El comportamiento nos queda como: 
+
+En el intervalo y < 1 el signo de y´ es negativo
+El intervalo 1 < y <2 espositivo 
+El intervalo y > 2 es negativo 
+
+<img width="540" height="346" alt="image" src="https://github.com/user-attachments/assets/99143f26-c101-4513-9bc1-e0aa6a2384f3" />
+
 
 
 
