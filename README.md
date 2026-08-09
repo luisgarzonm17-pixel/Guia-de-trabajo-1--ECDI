@@ -47,6 +47,43 @@ Analizando los signos:
 
 <img width="563" height="340" alt="image" src="https://github.com/user-attachments/assets/bb782e96-237d-4181-b920-470a64fda054" />
 
+Resultado dela anlisis: 
+y = 0 es estable 
+y = 2 es inestable 
+y = 3 es estable 
+
+
+# Punto B  
+
+y´ = $$y^2$$ - $$y^3$$
+
+Si factorizamos: 
+
+y´ = $$y^2$$(1 - y) 
+
+De los cuales los puntos criticos son: 
+
+$$y^2$$(1 - y) = 0 
+
+Entonces y = 0, y = 1 
+
+Analizando los signos: 
+
+como $$y^2$$ ≥ 0 
+si 
+y < 1 
+
+y´ > 0 
+
+si 
+y > 1 
+
+y´ < 0 
+
+El diagrama de Fase seria: 
+
+<img width="547" height="338" alt="image" src="https://github.com/user-attachments/assets/7fcf7cc9-1445-4479-89d0-8c6b3b688f1f" />
+
 
 
 
