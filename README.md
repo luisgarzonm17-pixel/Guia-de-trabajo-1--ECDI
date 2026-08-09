@@ -21,6 +21,15 @@ José Luis Garzón, Pedro Gomez
 
 
 
+<img width="754" height="155" alt="image" src="https://github.com/user-attachments/assets/6e238e38-56ce-447c-a264-575a73697dd4" />
+
+<img width="675" height="74" alt="image" src="https://github.com/user-attachments/assets/2c3e2536-8208-42fc-ade3-9e234e993b56" />
+
+
+
+
+
+
 
 
 
