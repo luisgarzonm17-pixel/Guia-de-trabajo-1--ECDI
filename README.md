@@ -26,8 +26,26 @@ José Luis Garzón, Pedro Gomez
 <img width="675" height="74" alt="image" src="https://github.com/user-attachments/assets/2c3e2536-8208-42fc-ade3-9e234e993b56" />
 
 
+# Solución 
+Los puntos criticos se obtienen haciendo: 
+
+f(y) = 0 
+luego de ello analizamos el signo de y´ a cada lado de cada punto. 
+
+a) y´ = y(3-y)(y-2) 
+los puntos criticos son: 
+y(3-y)(y-2) = 0
+por lo tanto: 
+y = 0, y = 2, y = 3 
+
+diagra de fase: 
+
+Analizando los signos: 
+
+<img width="338" height="203" alt="image" src="https://github.com/user-attachments/assets/b07cbf9e-9d43-4a54-aa70-bed187dddc6c" />
 
 
+<img width="563" height="340" alt="image" src="https://github.com/user-attachments/assets/bb782e96-237d-4181-b920-470a64fda054" />
 
 
 
