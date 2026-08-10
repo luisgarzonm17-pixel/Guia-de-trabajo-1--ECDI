@@ -1,4 +1,4 @@
-# Guia-de-trabajo-1--ECDI
+Ji# Guia-de-trabajo-1--ECDI
 Primera guia de trabajo de Ecuaciones diferenciales 
 
 José Luis Garzón, Pedro Gomez 
@@ -191,13 +191,32 @@ Intervalo	Punto de prueba	Signo de g(P)	Crece o decrece
 (1, 2)	P = 1.5	(1.5) (0.5) (0.5) = 0.375>0	Crece
 (2, ∞)	P = 3	(3)(2)(-1)=-6<0	Decrece
 
-Paso 3 — Clasificación de estabilidad
-Comparando el comportamiento a ambos lados de cada punto crítico:
-P = 0: asintóticamente estable (atractor) — ambos lados se acercan a 0
-P = 1: inestable (repulsor) — ambos lados se alejan de 1
-P = 2: asintóticamente estable (atractor) — ambos lados se acercan a 2
+
+Paso 3 — Clasificación de la estabilidad (versión más accesible)
+
+Comparando el comportamiento a ambos lados de cada punto de equilibrio:
+- P = 0: estable asintótico (atractor) — las soluciones se acercan a 0 desde ambos lados.
+- P = 1: inestable (repulsor) — las soluciones se alejan de 1 hacia ambos lados.
+- P = 2: estable asintótico (atractor) — las soluciones se acercan a 2 desde ambos lados.
+
 a) Diagrama de fase
-Con la información anterior se traza la recta de fase: los puntos críticos 0, 1 y 2 se marcan sobre la recta vertical, y las flechas indican la dirección de movimiento de P(t) en cada intervalo (hacia 0 desde ambos lados, alejándose de 1 hacia 0 o hacia 2, y hacia 2 desde ambos lados).
+Se dibuja la recta de fase marcando los equilibrios 0, 1 y 2 sobre una recta horizontal. En cada intervalo se colocan flechas que indican la dirección de P(t): hacia 0 en ambos lados de 0, alejándose de 1 hacia 0 o 2, y hacia 2 en ambos lados de 2.
+
+b) Población inicial de 3000 ejemplares
+Como P está en miles, P₀ = 3. Esto cae en el intervalo (2, ∞), donde la tasa g(P) es negativa, por lo que P(t) disminuye. Debido al teorema de unicidad, la solución no puede cruzar el equilibrio P = 2; por tanto la población decrece de forma acotada y se aproxima a 2 (es decir, 2000 ejemplares) cuando t → ∞.
+
+c) Población inicial de 1500 ejemplares
+P₀ = 1.5 está en (1, 2), donde g(P) > 0, así que P(t) aumenta. Tampoco puede sobrepasar P = 2, por lo que la población crece y tiende asintóticamente a 2000 ejemplares.
+
+d) Población inicial de 500 ejemplares
+P₀ = 0.5 pertenece al intervalo (0, 1), donde g(P) < 0, por lo que P(t) decrece. La solución queda atrapada entre 0 y 1 y converge asintóticamente a 0: la población se extingue a largo plazo.
+
+e) ¿Puede una población inicial de 900 ejemplares crecer hasta 1100?
+No. P₀ = 0.9 está en (0, 1), donde la tasa es negativa (la población decrece). Además, por unicidad las soluciones no cruzan el equilibrio P = 1, así que una trayectoria que comienza por debajo de 1 permanecerá siempre por debajo. Por tanto nunca alcanza 1.1 (1100 ejemplares); en cambio tiende hacia 0.
+
+Verificación gráfica
+El campo de pendientes y las curvas solución (obtenidas con el script de Python) confirman lo anterior: las soluciones que parten de 3000 y 1500 convergen hacia 2000, mientras que las que parten de 500 y 900 decrecen hacia 0.
+
 
 
 
