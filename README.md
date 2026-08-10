@@ -1,4 +1,4 @@
-Ji# Guia-de-trabajo-1--ECDI
+Guia-de-trabajo-1--ECDI
 Primera guia de trabajo de Ecuaciones diferenciales 
 
 José Luis Garzón, Pedro Gomez 
@@ -217,6 +217,41 @@ No. P₀ = 0.9 está en (0, 1), donde la tasa es negativa (la población decrece
 Verificación gráfica
 El campo de pendientes y las curvas solución (obtenidas con el script de Python) confirman lo anterior: las soluciones que parten de 3000 y 1500 convergen hacia 2000, mientras que las que parten de 500 y 900 decrecen hacia 0.
 
+
+Punto 4 — Modelo logístico de población 
+Enunciado
+La tasa de cambio de la población P de una especie (en miles) viene dada por
+dP/dt = 3P − 2P^2,
+con t medido en años.
+
+Paso 3 — Estabilidad de los equilibrios
+
+P = 0: inestable (repulsor) — las soluciones se alejan de 0.
+P = 1.5: asintóticamente estable (atractor) — las soluciones se aproximan a 1.5 desde ambos lados.
+
+a) Diagrama de fase
+Sobre la recta de fase se señalan los puntos (0, 1.5) . Las flechas señalan movimiento alejándose de 0 (hacia valores negativos por la izquierda y hacia 1.5 por la derecha) y apuntan hacia 1.5 desde ambos lados, indicando que ese punto atrae las trayectorias.
+Paso 1 — Equilibrios
+Factorizando: g(P) = P(3 − 2P) = 0
+Equilibrios: P = 0 y P = 1.5.
+Este es un modelo logístico: P = 1.5 (1500 individuos) representa la capacidad de carga del hábitat.
+
+b) Población inicial de 2000 ejemplares  
+P₀ = 2 (miles) está en el intervalo (1.5, ∞), donde g(P) < 0. La población disminuye y, como no puede cruzar el equilibrio P = 1.5, va decreciendo hasta acercarse cada vez más a 1.5, es decir, a 1500 ejemplares cuando t → ∞.
+
+c) Población inicial de 100 ejemplares  
+P₀ = 0.1 cae en (0, 1.5), donde g(P) > 0. La población aumenta y se aproxima de forma gradual a 1.5 (1500 ejemplares) a medida que pasa el tiempo.
+
+d) ¿Qué ocurre si la población inicial es 1500 ejemplares?  
+P₀ = 1.5 es un equilibrio estable. Si la población comienza exactamente en 1500, permanece ahí para siempre: P(t) = 1.5 (1500 ejemplares) es una solución estacionaria del modelo la capacidad de carga del sistema.
+
+e) Ecuación de cambio anual a partir de datos trimestrales  
+Si nacen 150 ejemplares por trimestre y mueren s ejemplares por trimestre, la tasa neta trimestral es (150 − s). Un año tiene 4 trimestres, así que la tasa anual es 4(150 − s) = 600 − 4s. Por tanto, si P se mide en ejemplares por año,
+dP/dt = 600 − 4s.
+f) Interpretación según cómo dependa la mortalidad  
+Si s es constante (no depende de P), entonces dP/dt = 600 − 4s es una tasa fija: la población cambia de forma lineal y no hay equilibrios intrínsecos crece o decrece sin límite según el signo de 600 − 4s. En cambio, el modelo logístico (con el término −2P²) introduce mortalidad dependiente de la densidad y genera una capacidad de carga estable en 1500. Por eso, para poblaciones sujetas a recursos limitados, es más realista modelar muertes que aumenten con la población (denso dependencia) que asumir una tasa de muertes fija.
+Verificación gráfica  
+El campo de pendientes y las soluciones numéricas (obtenidas con el script de Python) confirman esto: las trayectorias que empiezan en 2000 y en 100 se acercan a 1500, y la que parte exactamente de 1500 permanece constante.
 
 
 
