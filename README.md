@@ -169,6 +169,37 @@ El intervalo y > 2 es negativo
 <img width="540" height="346" alt="image" src="https://github.com/user-attachments/assets/99143f26-c101-4513-9bc1-e0aa6a2384f3" />
 
 
+#punto 3 
+
+Enunciado
+
+Sea P(t) la población de cierta especie en un parque natural, con t en años y P en miles. La ecuación diferencial
+dP/dt  = P (P - 1) (2 - P)
+describe la tasa de cambio de la población de la especie en el instante t.
+Paso 1 — Puntos críticos
+
+Se igualan a cero los factores de la
+ ecuación autónoma:
+
+Puntos críticos: P = 0,P = 1,P = 2
+Estas son las soluciones de equilibrio (constantes) de la ecuación diferencial.
+Paso 2 — Signo de g(P) en cada intervalo
+Evaluando g(P) = P(P-1)(2-P) en un punto de prueba de cada intervalo delimitado por los puntos críticos:
+Intervalo	Punto de prueba	Signo de g(P)	Crece o decrece
+(-∞, 0)	P = (−1)	(-1)(-2)(3)=6>0	Crece
+(0, 1)	P = 0.5	(0.5)(-0.5)(1.5)=-0.375<0	Decrece
+(1, 2)	P = 1.5	(1.5) (0.5) (0.5) = 0.375>0	Crece
+(2, ∞)	P = 3	(3)(2)(-1)=-6<0	Decrece
+
+Paso 3 — Clasificación de estabilidad
+Comparando el comportamiento a ambos lados de cada punto crítico:
+P = 0: asintóticamente estable (atractor) — ambos lados se acercan a 0
+P = 1: inestable (repulsor) — ambos lados se alejan de 1
+P = 2: asintóticamente estable (atractor) — ambos lados se acercan a 2
+a) Diagrama de fase
+Con la información anterior se traza la recta de fase: los puntos críticos 0, 1 y 2 se marcan sobre la recta vertical, y las flechas indican la dirección de movimiento de P(t) en cada intervalo (hacia 0 desde ambos lados, alejándose de 1 hacia 0 o hacia 2, y hacia 2 desde ambos lados).
+
+
 
 
 
